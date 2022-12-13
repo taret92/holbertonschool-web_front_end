@@ -47,7 +47,7 @@
     font-weight: var(--font-weight-bold);
   }
 
-  a {
+  a: link {
     color: var(--text-color);
     text-decoration: none;
   }
