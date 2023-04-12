@@ -1,11 +1,15 @@
 /* extend style*/
-
-.info{
+%fontsize{
     font-size: 12px;
-    .success{
-        color: #00ff00;
-    }
-    .warning{
-        color: #ff0000;
-    }
+}
+.info{
+    @extend %fontsize;
+}
+.success{
+    @extend %fontsize;
+    color: #00ff00;
+}
+.warning{
+    @extend %fontsize;
+    color: #ff0000;
 }
