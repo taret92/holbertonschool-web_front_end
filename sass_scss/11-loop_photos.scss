@@ -1,0 +1,9 @@
+/* foreach*/
+
+@import '11-loop_photos.scss'
+
+@each $photo in $list-names {
+    .photo-#{$photo}{
+      background: image-url("photos/#{$photo}.jpg") no-repeat;
+    }
+  }
